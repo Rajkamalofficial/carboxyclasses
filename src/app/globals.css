@@ -1,0 +1,298 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #000000
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  background: #fff;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  border: 100%;
+  background-color: aliceblue;
+}
+
+.main-logo {
+  max-width: 60px;
+  max-height: 60px;
+  /* min-width: 68px;
+  min-height: 60px; */
+  padding: 5%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 60px;
+  margin: 0px;
+  padding: 5px;
+  /* border: solid black 1px; */
+  overflow: none;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 6px #888888;
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+/* .navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+} */
+
+.navbar-a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 10%;
+
+}
+
+.search-bar {
+  min-width: 48vw;
+  height: 2.5rem;
+  margin: auto;
+  position: auto;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  border: 0px solid black;
+  padding: 0 0 0 10px;
+  color: #f3f3f3;
+
+}
+
+input.search-bar {
+  color: inherit;
+  padding: 12px 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.website-name {
+  padding-left: 10px;
+  font-weight: 700;
+}
+
+.tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+  padding: 7px;
+  margin: 2px;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: 0px solid #000000;
+  box-shadow: 0 1px 2px 0 #000000;
+}
+
+.tab:hover {
+  color: rgb(0, 0, 0);
+}
+
+.tab.active {
+  color: #ffffff;
+  background: #EA4335;
+  border-bottom: 2px solid #EA4335;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+
+  /* width: 100%; */
+  margin: auto;
+  /* flex-grow: 1; */
+}
+
+.tile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  gap: 5px;
+  padding-top: 16px;
+}
+
+.subject-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+  font-size: 13px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 2px 0 #000000;
+  transition: transform .1s ease, -webkit-transform .1s ease;
+  cursor: pointer;
+  height: 160px;
+  width: 235px;
+  max-width: 235px;
+  max-height: 146px;
+  min-height: 146px;
+  min-width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  border: 0.1px solid #cecece;
+}
+
+.subject-tile:hover {
+  box-shadow: 0 3px 6px 0 #000000;
+}
+
+.subject-logo {
+  max-height: 80px;
+  max-width:  80px;
+  min-height: fit-content;
+  min-width: fit-content;
+  padding: 5px;
+  background-color: white;
+}
+
+.nav-bottom {
+  padding-top: 0px;
+  position: fixed;
+  z-index: 850;
+}
+
+@media (max-width: 768px) {
+  .tile-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 7px;
+    padding-top: 150px;
+  }
+
+  .tabs {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100vw;
+    margin-top: 0px;
+    top: 0;
+    left: 0;
+    z-index: 998;
+    border-bottom: inherit;
+    /* border-bottom: solid 2px #000000; */
+  }
+
+  .chapter-tiles {
+    padding-top: 134px;
+  }
+
+  .subject-tile {
+    max-width: 155px;
+    height: 146px;
+  }
+
+  .subject-name {
+    overflow-y: hidden;
+  }
+}
+
+.subject-tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.chapter-tiles {
+
+  .subject-tile {
+    padding: 7px;
+    max-height: 130.2px;
+    height: 160px;
+    width: 235px;
+  }
+
+
+}
+
+.subject-name {
+
+  font-size: 14px;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  font-family: Google san, Open Sans, sans-serif;
+  font-weight: 500;
+
+}
+
+.content-tabs {
+  display: flex;
+  margin: auto;
+  height: 122px;
+}
+
+.content-tab {
+  padding: 10px;
+}
+
+.chapter-pdf {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  background-color: #fff;
+  scrollbar-width: none;
+}
+
+.toast-message {
+
+  font-size: 14px;
+  z-index: 0;
+}
+
+.Toastify__toast {
+  padding-top: 100px;
+  width: 500px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.toast-new {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
