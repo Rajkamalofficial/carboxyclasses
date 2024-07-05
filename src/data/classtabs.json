@@ -3,12 +3,12 @@
       {
         "image": "/chemistry.png",
         "title": "Chemistry",
-        "link": "12"
+        "link": "12/chemistry/ncert"
       },
       {
         "image": "/physics.png",
         "title": "Physics",
-        "link": "class12th-physics"
+        "link": "12/physics/ncert"
       },
       {
         "image": "/biology.png",

@@ -6,13 +6,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Navbar />
-        <div
+        <div 
           style={{
             backgroundImage: `url('/bgimg.png')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             height: '100vh', // set the height to 100vh to cover the entire screen
-            width: '100vw' // set the width to 100vw to cover the entire screen
+            width: '100vw', // set the width to 100vw to cover the entire screen
+            
           }}
         >
           {children}

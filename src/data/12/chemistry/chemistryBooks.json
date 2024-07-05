@@ -1,0 +1,105 @@
+{
+    "chemistrytabs": [
+        {
+            "title": "ncert",
+            "link": "ncert"
+        },
+        {
+            "title": "Study Material",
+            "link": "study-material"
+        },
+        {
+            "title": "PYQs",
+            "link": "pyqs"
+        },
+        {
+            "title": "Sample Papers",
+            "link": "sample-papers"
+        }
+    ],
+    "ncert": [
+        {
+            "image": "/solutions.jpg",
+            "title": "Solutions",
+            "link": "solutions"
+        },
+        {
+            "image": "/Electrochemistry.png",
+            "title": "Electrochemistry"
+        },
+        {
+            "image": "/chemical-kinetics.png",
+            "title": "Chemical-Kinetics"
+        },
+        {
+            "image": "/chemistry.png",
+            "title": "The d-and f-block Elements"
+        },
+        {
+            "image": "/chemistry.png",
+            "title": "Coordination Compounds"
+        },
+        {
+            "image": "/chemistry.png",
+            "title": "Haloalkanes and Haloarenes"
+        },
+        {
+            "image": "/chemistry.png",
+            "title": "Alcohols, Phenols and Ethers"
+        },
+        {
+            "image": "/chemistry.png",
+            "title": "Aldehydes, Ketones and Carboxylic acids"
+        },
+        {
+            "image": "/chemistry.png",
+            "title": "Amines"
+        },
+        {
+            "image": "/chemistry.png",
+            "title": "Biomolecules"
+        }
+    ],
+    "studyMaterialData": [
+        {
+            "image": "/solutions.jpg",
+            "title": "Neet Handwritten Notes",
+            "link": ""
+        },
+        {
+            "image": "/solutions.jpg",
+            "title": "Aakash Byjus",
+            "link": ""
+        },
+        {
+            "image": "/solutions.jpg",
+            "title": "Allen",
+            "link": ""
+        },
+        {
+            "image": "/solutions.jpg",
+            "title": "Nucleus",
+            "link": ""
+        },
+        {
+            "image": "/solutions.jpg",
+            "title": "Unacedemy",
+            "link": ""
+        },
+        {
+            "image": "/solutions.jpg",
+            "title": "Bansal",
+            "link": ""
+        },
+        {
+            "image": "/solutions.jpg",
+            "title": "Resonance",
+            "link": ""
+        },
+        {
+            "image": "/solutions.jpg",
+            "title": "Short Notes",
+            "link": ""
+        }
+    ]
+}

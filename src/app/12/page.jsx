@@ -1,9 +1,19 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
-function class12() {
+
+function solution() {
+
   return (
-    <div className='pt-20'>page</div>
+    <div>solution
+
+      <div className="tile-container">
+
+      </div>
+
+
+    </div>
   )
 }
 
-export default class12
+export default solution
