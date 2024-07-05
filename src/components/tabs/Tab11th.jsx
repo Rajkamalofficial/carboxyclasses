@@ -1,34 +1,10 @@
 import React from 'react';
-import Tile from './Tile'
+import Tile from './Tile';
+import classtabs from "@/data/classtabs.json"
 
 const Tab11th = () => {
 
-  const tileData = [
-    {
-      image: '/chemistry.png',
-      title: 'Chemistry'
-    },
-    {
-      image: '/biology.png',
-      title: 'Biology'
-    },
-    {
-      image: '/physics.png',
-      title: 'Physics'
-    },
-    {
-      image: '/english.png',
-      title: 'English'
-    },
-    {
-      image: '/maths.png',
-      title: 'Mathemetics'
-    },
-    {
-      image: '/books.png',
-      title: 'Extra Books'
-    },
-  ];
+  const tileData = classtabs.class11th;
 
   return <div className="">
           <div className="tile-container">

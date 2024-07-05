@@ -7,7 +7,7 @@ import Tab9th from '@/components/tabs/Tab9th';
 import Tab from '@/components/tabs/Tab';
 
 
-const Tabs = () => {
+const Classtabs = () => {
   const [activeTab, setActiveTab] = React.useState(1);
 
   const handleTabClick = (tabId) => {
@@ -59,4 +59,4 @@ const Tabs = () => {
   );
 };
 
-export default Tabs;
+export default Classtabs;
