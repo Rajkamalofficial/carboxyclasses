@@ -2,7 +2,7 @@ import React from 'react'
 
 function class12() {
   return (
-    <div>page</div>
+    <div className='pt-20'>page</div>
   )
 }
 

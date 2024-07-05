@@ -5,7 +5,7 @@ import React from 'react'
 function NavLogin() {
   return (
     <div>
-      <Link href="/" className="text-sm inline-block align-text-top font-mono font-semibold text-white bg-red-600 px-5 py-2.5 m-2 rounded-md" >
+      <Link href="/" className="pointer-events-auto ml-0 mr-3 rounded-md bg-rose-600 px-4 py-3 text-[0.9rem] font-semibold leading-5 text-white hover:bg-rose-700" >
         Login
       </Link>
     </div>

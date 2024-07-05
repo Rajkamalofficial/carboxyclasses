@@ -120,7 +120,7 @@ input.search-bar {
 
 .tab.active {
   color: #ffffff;
-  background: #EA4335;
+  background-color: rgb(225 29 72);;
   border-bottom: 2px solid #EA4335;
 }
 
@@ -140,6 +140,7 @@ input.search-bar {
   justify-content: start;
   align-items: center;
   margin: 0 auto;
+  margin-top: 0px;
   max-width: 1000px;
   gap: 5px;
   padding-top: 16px;

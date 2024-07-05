@@ -16,7 +16,7 @@ const Classtabs = () => {
 
   return (
     <>
-    <div className="tabs">
+    <div className="tabs" >
       <Tab
         label="Class 12th"
         id={1}
