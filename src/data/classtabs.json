@@ -3,12 +3,12 @@
       {
         "image": "/chemistry.png",
         "title": "Chemistry",
-        "link": "12/chemistry/ncert"
+        "link": "12/chemistry"
       },
       {
         "image": "/physics.png",
         "title": "Physics",
-        "link": "12/physics/ncert"
+        "link": "12/physics"
       },
       {
         "image": "/biology.png",
@@ -23,6 +23,11 @@
       {
         "image": "/english.png",
         "title": "English",
+        "link": ""
+      },
+      {
+        "image": "/english.png",
+        "title": "Test",
         "link": ""
       },
       {

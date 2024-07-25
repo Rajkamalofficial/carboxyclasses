@@ -6,7 +6,126 @@
         {"image":"/12/chemistry/ncert/solution/Solution-3.png"},
         {"image":"/12/chemistry/ncert/solution/Solution-4.png"},
         {"image":"/12/chemistry/ncert/solution/Solution-5.png"},
-        {"image":"/12/chemistry/ncert/solution/Solution-6.png"}
+        {"image":"/12/chemistry/ncert/solution/Solution-6.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-7.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-8.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-9.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-10.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-11.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-12.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-13.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-14.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-15.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-16.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-17.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-18.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-19.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-20.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-21.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-22.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-23.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-24.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-25.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-26.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-27.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-28.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-29.png"}
 
+    ],
+    "electrochemistry": [
+        {"image":"/12/chemistry/ncert/solution/Solution-10.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-11.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-12.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-13.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-14.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-15.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-16.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-17.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-18.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-19.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-20.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-21.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-22.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-23.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-24.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-25.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-26.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-27.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-28.png"},
+        {"image":"/12/chemistry/ncert/solution/Solution-29.png"}
+
+    ],
+
+    "ncert": [
+        {
+            "image": "/solutions.jpg",
+            "title": "Solutions",
+            "link": "chemistry/ncert/solutions",
+            "png":[
+                {"image":"/12/chemistry/ncert/solution/Solution-0.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-1.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-2.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-3.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-4.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-5.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-6.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-7.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-8.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-9.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-10.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-11.png"}
+            ]
+        },
+        {
+            "image": "/Electrochemistry.png",
+            "title": "Electrochemistry",
+            "link": "chemistry/ncert/electrochemistry",
+            "png":[
+                {"image":"/12/chemistry/ncert/solution/Solution-6.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-7.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-8.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-9.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-10.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-11.png"}
+            ]
+        },
+        {
+            "image": "/chemical-kinetics.png",
+            "title": "Chemical-Kinetics",
+            "link": "chemistry/ncert/chemical-kinetics",
+            "png":[
+                {"image":"/12/chemistry/ncert/solution/Solution-1.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-2.png"}
+            ]
+        },
+        {
+            "image": "/chemistry.png",
+            "title": "The d-and f-block Elements"
+        },
+        {
+            "image": "/chemistry.png",
+            "title": "Coordination Compounds"
+        },
+        {
+            "image": "/chemistry.png",
+            "title": "Haloalkanes and Haloarenes"
+        },
+        {
+            "image": "/chemistry.png",
+            "title": "Alcohols, Phenols and Ethers"
+        },
+        {
+            "image": "/chemistry.png",
+            "title": "Aldehydes, Ketones and Carboxylic acids"
+        },
+        {
+            "image": "/chemistry.png",
+            "title": "Amines",
+            "link": "chemistry/ncert/amines"
+        },
+        {
+            "image": "/chemistry.png",
+            "title": "Biomolecules"
+        }
     ]
 }

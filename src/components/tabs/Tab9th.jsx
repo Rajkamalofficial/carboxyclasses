@@ -1,6 +1,7 @@
 import React from 'react';
 import Tile from './Tile'
-import classtabs from "@/data/classtabs.json"
+import classtabs from "@/data/classtabs.json";
+import { ToastContainer, toast } from 'react-toastify';
 
 const Tab9th = () => {
 
@@ -12,7 +13,9 @@ const Tab9th = () => {
         <Tile key={tile.image} image={tile.image} title={tile.title} />
       ))}
     </div>
-
+    <div className='toast-container'>
+      <ToastContainer draggablePercent={10} autoClose={2000} />
+    </div>
   </div>;
 };
 

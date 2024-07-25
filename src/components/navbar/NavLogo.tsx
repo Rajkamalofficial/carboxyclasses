@@ -8,7 +8,7 @@ function NavLogo() {
         <div className='navbar-a'>
             <Link href="/">
                 <Image
-                    src="/mainlogo-min.png"
+                    src="/carboxylogo.png"
                     width={50}
                     height={50}
                     alt="Carboxy Classes"

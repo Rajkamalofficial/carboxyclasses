@@ -17,88 +17,203 @@
             "link": "sample-papers"
         }
     ],
+
     "ncert": [
         {
-            "image": "/solutions.jpg",
+            "CoverImage": "/solutions.jpg",
             "title": "Solutions",
-            "link": "solutions"
+            "png":[
+                {"image":"/12/chemistry/ncert/solution/Solution-0.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-1.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-2.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-3.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-4.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-5.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-6.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-7.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-8.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-9.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-10.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-11.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-12.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-13.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-14.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-15.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-16.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-17.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-18.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-19.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-20.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-21.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-22.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-23.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-24.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-25.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-26.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-27.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-28.png"},
+                {"image":"/12/chemistry/ncert/solution/Solution-29.png"}
+            ]
         },
         {
-            "image": "/Electrochemistry.png",
-            "title": "Electrochemistry"
+            "CoverImage": "/Electrochemistry.png",
+            "title": "Electrochemistry",
+            "png": [
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-0.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-1.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-2.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-3.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-4.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-5.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-6.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-7.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-8.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-9.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-10.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-11.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-12.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-13.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-14.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-15.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-16.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-17.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-18.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-19.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-20.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-21.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-22.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-23.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-24.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-25.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-26.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-27.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-28.png"},
+                {"image":"/12/chemistry/ncert/electrochemistry/lech102-29.png"}
+            ]
         },
         {
-            "image": "/chemical-kinetics.png",
-            "title": "Chemical-Kinetics"
+            "CoverImage": "/chemical-kinetics.png",
+            "title": "Chemical-Kinetics",
+            "link": "chemistry/ncert/chemical-kinetics"
         },
         {
-            "image": "/chemistry.png",
+            "CoverImage": "/chemistry.png",
             "title": "The d-and f-block Elements"
         },
         {
-            "image": "/chemistry.png",
+            "CoverImage": "/chemistry.png",
             "title": "Coordination Compounds"
         },
         {
-            "image": "/chemistry.png",
+            "CoverImage": "/chemistry.png",
             "title": "Haloalkanes and Haloarenes"
         },
         {
-            "image": "/chemistry.png",
+            "CoverImage": "/chemistry.png",
             "title": "Alcohols, Phenols and Ethers"
         },
         {
-            "image": "/chemistry.png",
+            "CoverImage": "/chemistry.png",
             "title": "Aldehydes, Ketones and Carboxylic acids"
         },
         {
-            "image": "/chemistry.png",
-            "title": "Amines"
+            "CoverImage": "/chemistry.png",
+            "title": "Amines",
+            "link": "chemistry/ncert/amines"
         },
         {
-            "image": "/chemistry.png",
+            "CoverImage": "/chemistry.png",
             "title": "Biomolecules"
         }
     ],
     "studyMaterialData": [
         {
-            "image": "/solutions.jpg",
+            "CoverImage": "/solutions.jpg",
             "title": "Neet Handwritten Notes",
             "link": ""
         },
         {
-            "image": "/solutions.jpg",
+            "CoverImage": "/solutions.jpg",
             "title": "Aakash Byjus",
             "link": ""
         },
         {
-            "image": "/solutions.jpg",
+            "CoverImage": "/solutions.jpg",
             "title": "Allen",
             "link": ""
         },
         {
-            "image": "/solutions.jpg",
+            "CoverImage": "/solutions.jpg",
             "title": "Nucleus",
             "link": ""
         },
         {
-            "image": "/solutions.jpg",
+            "CoverImage": "/solutions.jpg",
             "title": "Unacedemy",
             "link": ""
         },
         {
-            "image": "/solutions.jpg",
+            "CoverImage": "/solutions.jpg",
             "title": "Bansal",
             "link": ""
         },
         {
-            "image": "/solutions.jpg",
+            "CoverImage": "/solutions.jpg",
             "title": "Resonance",
             "link": ""
         },
         {
-            "image": "/solutions.jpg",
+            "CoverImage": "/solutions.jpg",
             "title": "Short Notes",
+            "link": ""
+        }
+    ],
+
+    "pyqs": [
+        {
+            "CoverImage": "/solutions.jpg",
+            "title": "Solutions",
+            "link": "solutions"
+        },
+        {
+            "CoverImage": "/Electrochemistry.png",
+            "title": "Electrochemistry",
+            "link": "electrochemistry"
+        },
+        {
+            "CoverImage": "/chemical-kinetics.png",
+            "title": "Chemical-Kinetics"
+        },
+        {
+            "CoverImage": "/chemistry.png",
+            "title": "The d-and f-block Elements"
+        }
+    ],
+
+    "samplepapers": [
+        {
+            "CoverImage": "/solutions.jpg",
+            "title": "Neet Handwritten Notes",
+            "link": ""
+        },
+        {
+            "CoverImage": "/solutions.jpg",
+            "title": "Aakash Byjus",
+            "link": ""
+        },
+        {
+            "CoverImage": "/solutions.jpg",
+            "title": "Allen",
+            "link": ""
+        },
+        {
+            "CoverImage": "/solutions.jpg",
+            "title": "Nucleus",
+            "link": ""
+        },
+        {
+            "CoverImage": "/solutions.jpg",
+            "title": "Unacedemy",
             "link": ""
         }
     ]

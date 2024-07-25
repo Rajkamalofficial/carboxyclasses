@@ -1,0 +1,121 @@
+<Popover placement="bottom" showArrow={true} backdrop="blur">
+    <PopoverTrigger>
+        <div className="subject-tile" onClick={notify}>
+            <img src={image} alt={title} className="subject-logo" />
+            <h3 className="subject-name">{title}</h3>
+        </div>
+    </PopoverTrigger>
+    <PopoverContent>
+        <Accordion isCompact variant=""
+            className="p-2 flex flex-col gap-1 w-full max-w-[300px] max-h-[200px] overflow-scroll scrollbar-hide">
+            <AccordionItem isReadOnly key="1" aria-label="Accordion 1" title="Accordion 1">
+                Raj Kamal
+            </AccordionItem>
+            <AccordionItem key="2" aria-label="Accordion 2" title="Accordion 2">
+                {defaultContent}
+            </AccordionItem>
+            <AccordionItem key="3" aria-label="Accordion 3" title="Accordion 3">
+                {defaultContent}
+            </AccordionItem>
+        </Accordion>
+    </PopoverContent>
+</Popover>
+
+
+//
+<Link href={link}>
+// <div className="subject-tile">
+    // <img src={image} alt={title} className="subject-logo" />
+    // <h3 className="subject-name">{title}</h3>
+    // </div>
+// </Link>
+
+<div className='pdf'>
+    {/* {png.map((image, index) => (
+    <img key={index} src={image} alt="pdf" />
+    ))} */}
+
+    {/* {pdf.map((section, index) => (
+    <div key={index}>
+        <h2>{section.title}</h2>
+        {section.png && (
+        <div>
+            {section.png.map((image, index) => (
+            <img key={index} src={image.image} alt={image.image} />
+            ))}
+        </div>
+        )}
+    </div>
+    ))} */}
+
+
+
+
+</div>
+
+
+
+{/* {showModal && (
+    <span className='absolute left-0 top-0'>
+      <button onClick={handleModalClose} className='text-2xl'>X</button>
+      <div className='pdf'>
+        {pdf.map((ContentPages) => (
+          <Contentpages image={ContentPages.image} />
+        ))}
+      </div>
+    </span>
+  )} */}
+
+
+
+  import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter } from "@nextui-org/react";
+import test from "@/data/12/chemistry/test.json";
+
+
+{/* <Modal
+    isOpen={showModal}
+    placement="top"
+    scrollBehavior="inside"
+    backdrop="blur"
+    onClose={handleModalClose}
+    size='3xl'
+    motionProps={{
+      variants: {
+        enter: {
+          y: 0,
+          opacity: 1,
+          transition: {
+            duration: 0.0,
+            ease: "easeOut",
+          },
+        },
+        exit: {
+          y: -20,
+          opacity: 0,
+          transition: {
+            duration: 0.1,
+            ease: "easeIn",
+          },
+        },
+      }
+    }}
+    className='overflow-y-hidden mt-16 lg:mt-20' >
+
+    <ModalContent className='overflow-hidden'>
+      <>
+        <ModalHeader className="flex flex-row gap-1 justify-center stroke-2">{title}</ModalHeader>
+        <ModalBody className='body overflow-x-hidden' >
+        {png && (
+              <div className=''>
+                {png.map((image, index) => (
+                  <img key={index} src={image.image} alt={image.image} />
+                ))}
+              </div>
+            )}
+        </ModalBody>
+        <ModalFooter className='items-center justify-center bg-slate-500 text-neutral-50'>
+          Space for Ads
+        </ModalFooter>
+      </>
+    </ModalContent>
+  </Modal> */}

@@ -143,7 +143,7 @@ input.search-bar {
   margin-top: 0px;
   max-width: 1000px;
   gap: 5px;
-  padding-top: 16px;
+  padding-top: 4px;
 }
 
 .subject-tile {
@@ -194,9 +194,10 @@ input.search-bar {
     flex-direction: row;
     justify-content: center;
     gap: 7px;
-    padding-top: 150px;
   }
-
+.text {
+  padding-top: 150px;
+}
   .tabs {
     background-color: #ffffff;
     position: fixed;
@@ -207,10 +208,6 @@ input.search-bar {
     z-index: 998;
     border-bottom: inherit;
     /* border-bottom: solid 2px #000000; */
-  }
-
-  .chapter-tiles {
-    padding-top: 134px;
   }
 
   .subject-tile {
@@ -296,4 +293,46 @@ input.search-bar {
   left: 0;
 }
 
+.pdf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  @media (min-width: 1024px) { 
+    width: 100%;
+   }
+}
 
+img {
+  pointer-events: none;
+}
+
+.popup {
+  height: calc(100vh - 64px);
+  transform: translate(-50%, 0%);
+  box-shadow: 0 0 800px rgba(0, 0, 0, 0.9);
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px grey; 
+  border-radius: 2px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(244 63 94); 
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #449bc7; 
+}
