@@ -2,11 +2,6 @@
   "neet": [
     {
       "image": "/solutions.jpg",
-      "title": "Neet Handwritten Notes",
-      "link": ""
-    },
-    {
-      "image": "/solutions.jpg",
       "title": "Aakash Byjus",
       "link": ""
     },
@@ -38,6 +33,11 @@
     {
       "image": "/solutions.jpg",
       "title": "Short Notes",
+      "link": ""
+    },
+    {
+      "image": "/solutions.jpg",
+      "title": "Neet Handwritten Notes",
       "link": ""
     }
   ],

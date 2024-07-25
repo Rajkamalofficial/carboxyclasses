@@ -120,7 +120,8 @@ input.search-bar {
 
 .tab.active {
   color: #ffffff;
-  background-color: rgb(225 29 72);;
+  background-color: rgb(225 29 72);
+  ;
   border-bottom: 2px solid #EA4335;
 }
 
@@ -176,7 +177,7 @@ input.search-bar {
 
 .subject-logo {
   max-height: 80px;
-  max-width:  80px;
+  max-width: 80px;
   min-height: fit-content;
   min-width: fit-content;
   padding: 5px;
@@ -191,13 +192,14 @@ input.search-bar {
 
 @media (max-width: 768px) {
   .tile-container {
-    flex-direction: row;
     justify-content: center;
     gap: 7px;
   }
-.text {
-  padding-top: 150px;
-}
+
+  .text {
+    padding-top: 150px;
+  }
+
   .tabs {
     background-color: #ffffff;
     position: fixed;
@@ -217,6 +219,12 @@ input.search-bar {
 
   .subject-name {
     overflow-y: hidden;
+  }
+
+  #react-aria-\:R4v6cq\:{
+    overflow: scroll;
+    background-color: #fff;
+    width: 100vw;
   }
 }
 
@@ -299,9 +307,10 @@ input.search-bar {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  @media (min-width: 1024px) { 
+
+  @media (min-width: 1024px) {
     width: 100%;
-   }
+  }
 }
 
 img {
@@ -322,17 +331,17 @@ img {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px grey; 
+  box-shadow: inset 0 0 6px grey;
   border-radius: 2px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(244 63 94); 
+  background: rgb(244 63 94);
   border-radius: 2px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #449bc7; 
+  background: #449bc7;
 }

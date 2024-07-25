@@ -12,8 +12,8 @@ function classtabsdata() {
     const class9th = classtabs.class9th;
 
     return (
-        <div className="flex w-vw flex-col flex-wrap justify-center items-center pt-16 overflow-hidden">
-            <Tabs aria-label="dynamic" size='md' radius='md' variant='solid' color='danger' className='items-center drop-shadow-md' >
+        <div className="flex w-vw flex-col flex-wrap justify-center items-center pt-16">
+            <Tabs aria-label="dynamic" size='md' radius='md' variant='solid' color='danger' className='flex flex-col flex-wrap items-center drop-shadow-md' >
                 <Tab key="neet" title="NEET">
                     <div className="tile-container chapter-tiles">
                         {neet.map((tile) => (
