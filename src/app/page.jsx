@@ -5,7 +5,7 @@ import Tile from '@/components/tabs/Tile';
 import classtabs from "@/data/classtabs.json";
 
 function classtabsdata() {
-
+    const neet = classtabs.neet;
     const class12th = classtabs.class12th;
     const class11th = classtabs.class11th;
     const class10th = classtabs.class10th;
@@ -14,6 +14,18 @@ function classtabsdata() {
     return (
         <div className="flex w-vw flex-col flex-wrap justify-center items-center pt-16 overflow-hidden">
             <Tabs aria-label="dynamic" size='md' radius='md' variant='solid' color='danger' className='items-center drop-shadow-md' >
+                <Tab key="neet" title="NEET">
+                    <div className="tile-container chapter-tiles">
+                        {neet.map((tile) => (
+                            <Tile className="tab"
+                                key={tile.title}
+                                image={tile.image}
+                                title={tile.title}
+                                link={tile.link}
+                            />
+                        ))}
+                    </div>
+                </Tab>
                 <Tab key="class12th" title="Class 12th">
                     <div className="tile-container chapter-tiles">
                         {class12th.map((tile) => (

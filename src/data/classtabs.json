@@ -1,123 +1,165 @@
 {
-    "class12th": [
-      {
-        "image": "/chemistry.png",
-        "title": "Chemistry",
-        "link": "12/chemistry"
-      },
-      {
-        "image": "/physics.png",
-        "title": "Physics",
-        "link": "12/physics"
-      },
-      {
-        "image": "/biology.png",
-        "title": "Biology",
-        "link": ""
-      },
-      {
-        "image": "/maths.png",
-        "title": "Mathemetics",
-        "link": ""
-      },
-      {
-        "image": "/english.png",
-        "title": "English",
-        "link": ""
-      },
-      {
-        "image": "/english.png",
-        "title": "Test",
-        "link": ""
-      },
-      {
-        "image": "/books.png",
-        "title": "Extra Books",
-        "link": ""
-      }
-    ],
-    "class11th": [
-        {
-            "image": "/chemistry.png",
-            "title": "Chemistry",
-            "link": "class12th-chemistry"
-          },
-          {
-            "image": "/biology.png",
-            "title": "Biology",
-            "link": ""
-        },
-          {
-            "image": "/physics.png",
-            "title": "Physics",
-            "link": "class12th-physics"
-          },
-        {
-          "image": "/english.png",
-          "title": "English",
-          "link": ""
-        },
-          {
-            "image": "/maths.png",
-            "title": "Mathemetics",
-            "link": ""
-          },
-          {
-            "image": "/books.png",
-            "title": "Extra Books",
-            "link": ""
-          }
-    ],
-    "class10th": [
-        {
-            "image": "/science.png",
-            "title": "Science"
-          },
-          {
-            "image": "/maths.png",
-            "title": "Mathemetics"
-          },
-          {
-            "image": "/social-studies.png",
-            "title": "Social Studies"
-          },
-          {
-            "image": "/hindi.png",
-            "title": "Hindi"
-          },
-          {
-            "image": "/english.png",
-            "title": "English"
-          },
-          {
-            "image": "/books.png",
-            "title": "Extra Books"
-          }
-    ],
-    "class9th": [
-        {
-          "image": "/science.png",
-          "title": "Science"
-        },
-        {
-          "image": "/social-studies.png",
-          "title": "Social Studies"
-        },
-        {
-          "image": "/maths.png",
-          "title": "Mathemetics"
-        },
-        {
-          "image": "/english.png",
-          "title": "English"
-        },
-        {
-          "image": "/hindi.png",
-          "title": "Hindi"
-        },
-        {
-          "image": "/books.png",
-          "title": "Extra Books"
-        }
-      ]
-  }
+  "neet": [
+    {
+      "image": "/solutions.jpg",
+      "title": "Neet Handwritten Notes",
+      "link": ""
+    },
+    {
+      "image": "/solutions.jpg",
+      "title": "Aakash Byjus",
+      "link": ""
+    },
+    {
+      "image": "/solutions.jpg",
+      "title": "Allen",
+      "link": ""
+    },
+    {
+      "image": "/solutions.jpg",
+      "title": "Nucleus",
+      "link": ""
+    },
+    {
+      "image": "/solutions.jpg",
+      "title": "Unacedemy",
+      "link": ""
+    },
+    {
+      "image": "/solutions.jpg",
+      "title": "Bansal",
+      "link": ""
+    },
+    {
+      "image": "/solutions.jpg",
+      "title": "Resonance",
+      "link": ""
+    },
+    {
+      "image": "/solutions.jpg",
+      "title": "Short Notes",
+      "link": ""
+    }
+  ],
+  "class12th": [
+    {
+      "image": "/chemistry.png",
+      "title": "Chemistry",
+      "link": "12/chemistry"
+    },
+    {
+      "image": "/physics.png",
+      "title": "Physics",
+      "link": "12/physics"
+    },
+    {
+      "image": "/biology.png",
+      "title": "Biology",
+      "link": ""
+    },
+    {
+      "image": "/maths.png",
+      "title": "Mathemetics",
+      "link": ""
+    },
+    {
+      "image": "/english.png",
+      "title": "English",
+      "link": ""
+    },
+    {
+      "image": "/english.png",
+      "title": "Test",
+      "link": ""
+    },
+    {
+      "image": "/books.png",
+      "title": "Extra Books",
+      "link": ""
+    }
+  ],
+  "class11th": [
+    {
+      "image": "/chemistry.png",
+      "title": "Chemistry",
+      "link": "class12th-chemistry"
+    },
+    {
+      "image": "/biology.png",
+      "title": "Biology",
+      "link": ""
+    },
+    {
+      "image": "/physics.png",
+      "title": "Physics",
+      "link": "class12th-physics"
+    },
+    {
+      "image": "/english.png",
+      "title": "English",
+      "link": ""
+    },
+    {
+      "image": "/maths.png",
+      "title": "Mathemetics",
+      "link": ""
+    },
+    {
+      "image": "/books.png",
+      "title": "Extra Books",
+      "link": ""
+    }
+  ],
+  "class10th": [
+    {
+      "image": "/science.png",
+      "title": "Science"
+    },
+    {
+      "image": "/maths.png",
+      "title": "Mathemetics"
+    },
+    {
+      "image": "/social-studies.png",
+      "title": "Social Studies"
+    },
+    {
+      "image": "/hindi.png",
+      "title": "Hindi"
+    },
+    {
+      "image": "/english.png",
+      "title": "English"
+    },
+    {
+      "image": "/books.png",
+      "title": "Extra Books"
+    }
+  ],
+  "class9th": [
+    {
+      "image": "/science.png",
+      "title": "Science"
+    },
+    {
+      "image": "/social-studies.png",
+      "title": "Social Studies"
+    },
+    {
+      "image": "/maths.png",
+      "title": "Mathemetics"
+    },
+    {
+      "image": "/english.png",
+      "title": "English"
+    },
+    {
+      "image": "/hindi.png",
+      "title": "Hindi"
+    },
+    {
+      "image": "/books.png",
+      "title": "Extra Books"
+    }
+  ]
+}
