@@ -1,17 +1,14 @@
 "use client"
-import React, { useState } from 'react';
-import test from "@/data/12/chemistry/test.json";
+import React from 'react';
 import { toast } from 'react-toastify';
 import Link from 'next/link';
 
-const Tile = ({ image, title, link}) => {
+const Tile = ({ image, title, link }) => {
 
   const notify = () => toast("COMING SOON!!!", {
     position: 'top-right',
     className: 'toast-message',
   });
-
-  const pdf = test.ncert;
 
   if (!link) {
     return (
@@ -30,11 +27,11 @@ const Tile = ({ image, title, link}) => {
   return (
 
     <Link href={link}>
-    <span className="subject-tile" >
-      <img src={image} alt={title} className="subject-logo" />
-      <h3 className="subject-name">{title}</h3>
-    </span>
-  </Link>
+      <span className="subject-tile" >
+        <img src={image} alt={title} className="subject-logo" />
+        <h3 className="subject-name">{title}</h3>
+      </span>
+    </Link>
   );
 };
 

@@ -62,7 +62,6 @@ function ncert() {
                         ))}
                     </div>
                 </Tab>
-
             </Tabs>
         </div>
     )

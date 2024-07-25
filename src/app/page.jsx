@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import { Tabs, Tab } from "@nextui-org/react";
-import Tile from '@/components/tabs/Tile';
+import Tile from '@/components/Tile';
 import classtabs from "@/data/classtabs.json";
 
 function classtabsdata() {
@@ -80,7 +80,6 @@ function classtabsdata() {
                         ))}
                     </div>
                 </Tab>
-
             </Tabs>
         </div>
     )
