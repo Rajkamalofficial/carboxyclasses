@@ -94,7 +94,36 @@
         {
             "CoverImage": "/chemical-kinetics.png",
             "title": "Chemical-Kinetics",
-            "link": "chemistry/ncert/chemical-kinetics"
+            "png": [
+                {"image":"https://drive.google.com/file/d/1LqriLu90MB5DS4Yv5xEBt3uNxKOcsPiH/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1R04ouaisdszrmWV_eVhzUR25vLPDiI06/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1eBIN7lHcR_ZAqaiGHoCYGGgwyr1IVoNH/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1VgXitd93JTHTdRpyZEfKn7pyQyeYPDsi/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1NtQ5xADPIG3nl59fxKKfw30wmccXdZ-_/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1lvPZboQ1Or3xxTdplrXAZkDwRZsinlWQ/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1vBkNshmwy7KBpL3qSGczN9TGnTJzQSIB/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1IaI5IK9DfJ3_Wmg799ddbYnc8JsUkIwz/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1ofon77yQicF-yZYUVHOaZgFLsdlHeYVF/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1i6QK4SysgTUTJJLjEQyZ9gWeF0CIDYyX/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1P_4mrTXUiMe5eyuNfN1FvwwjzivrexpZ/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1eg94iM_eEZf1GEu6tYu-LbSxs4PiydgX/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1zFo6AMkiCTdoK1HoSyuOkCi1wHMvt8o3/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1JbimtDN9sKkb-LHEmSydsa5CTVIQ49zE/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/10C8L1BAcyXIlODmxNZ2pAYXq9gUCBi4g/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1ai6p8VEnFtcsoTMrwehsxLxMsbFmb-5c/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1Ec_4m95JMrSEO6VBr-CL81ySvRyQrmcr/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/17eMfXu72TqGzASrxmCQU03ITIaxz5EVq/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1OtMsznTXIl3lzbti97Gy1743RRHfZYxq/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1c8JcMthIrfVqoXioG59opXDd8pblZ6LR/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1nc90a1Z-xaiMxpzyCIIXgjSiFkelPrsv/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1ILIuReiWIOLo6Shaq-FSzWudHPTKw-JB/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/14qDce8hfyvcIMUBfcjj1p8E5UZHR9xvx/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/192QawIG3ujXOBkd1qNmSjZkbCeHJvxqW/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1rXNZxyZhhd5zwJ_jJ5NcLGj7k_9WP6O8/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1x-YWkBxTD61-HPV426IfOUN5snYKL4sv/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1pU2cHAd4OirYGTnXkun1M5tapGzN-Ay_/view?usp=drive_link"},
+                {"image":"https://drive.google.com/file/d/1TLVMfEfbXRTfoRueNZnXCpezzQ4g-HIa/view?usp=drive_link"}
+            ]
         },
         {
             "CoverImage": "/chemistry.png",
