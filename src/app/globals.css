@@ -190,6 +190,10 @@ input.search-bar {
   z-index: 850;
 }
 
+#react-aria-\:R4v6cq\:{
+  background-color: #fff;
+}
+
 @media (max-width: 768px) {
   .tile-container {
     justify-content: center;
@@ -346,6 +350,3 @@ img {
   background: #449bc7;
 }
 
-#react-aria-\:R4v6cq\:{
-  background-color: #fff;
-}
