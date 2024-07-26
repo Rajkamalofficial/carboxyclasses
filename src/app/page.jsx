@@ -14,7 +14,7 @@ function classtabsdata() {
     return (
         <div className="flex w-vw flex-col flex-wrap justify-center items-center pt-16">
             <Tabs aria-label="dynamic" size='md' radius='md' variant='solid' color='danger' className='flex flex-col flex-wrap items-center drop-shadow-md' >
-                <Tab key="neet" title="NEET">
+                {/* <Tab isDisabled key="neet" title="NEET">
                     <div className="tile-container chapter-tiles">
                         {neet.map((tile) => (
                             <Tile className="tab"
@@ -25,7 +25,7 @@ function classtabsdata() {
                             />
                         ))}
                     </div>
-                </Tab>
+                </Tab> */}
                 <Tab key="class12th" title="Class 12th">
                     <div className="tile-container chapter-tiles">
                         {class12th.map((tile) => (
@@ -39,7 +39,7 @@ function classtabsdata() {
                     </div>
                 </Tab>
                 <Tab key="class11th" title="Class 11th" className=''>
-                    <div className="tile-container">
+                    <div className="tile-container chapter-tiles">
                         {class11th.map((tile) => (
                             <Tile className="tab"
                                 key={tile.title}

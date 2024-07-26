@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import Image from "next/image";
 
 export default function RootLayout({children}) {
 
@@ -12,7 +12,7 @@ export default function RootLayout({children}) {
     <html lang="en" className="light">
       <body>
         <Navbar />
-        <div
+        {/* <div
           style={{
             backgroundImage: `url('/bgimg.png')`,
             backgroundSize: 'cover',
@@ -22,13 +22,14 @@ export default function RootLayout({children}) {
             height: '100vh', // set the height to 100vh to cover the entire screen
             width: '100vw', // set the width to 100vw to cover the entire screen
           }}
-        >
+        > */}
+        
           {children}
 
           <div className='toast-container'>
             <ToastContainer draggablePercent={10} autoClose={2000}  />
           </div>
-        </div>
+        
       </body>
     </html>
   );

@@ -5,20 +5,15 @@ import Link from 'next/link'
 
 function NavLogo() {
     return (
-        <div className='navbar-a'>
             <Link href="/">
                 <Image
                     src="/carboxylogo.png"
-                    width={50}
-                    height={50}
+                    width={40}
+                    height={40}
                     alt="Carboxy Classes"
                     className='main-logo'
                 />
             </Link>
-            {/* <div >
-        <p className="website-name">Carboxy Classes</p>
-      </div> */}
-        </div>
     )
 }
 

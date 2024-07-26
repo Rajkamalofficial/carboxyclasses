@@ -12,8 +12,8 @@ function ncert() {
     const samplepapersData = chemistryBooks.samplepapers;
 
     return (
-        <div className="flex w-vw flex-col justify-center items-center pt-16 overflow-hidden ">
-            <Tabs aria-label="dynamic" size='md' radius='md' variant='solid' color='danger' className='items-center drop-shadow-md' >
+        <div className="flex w-vw flex-col flex-wrap justify-center items-center pt-16">
+            <Tabs aria-label="dynamic" size='md' radius='md' variant='solid' color='danger' className='flex flex-col flex-wrap items-center drop-shadow-md' >
                 <Tab key="ncert" title="NCERT">
                     <div className="tile-container chapter-tiles">
                         {ncertData.map((tile) => (
@@ -27,7 +27,7 @@ function ncert() {
                     </div>
                 </Tab>
                 <Tab key="studymaterial12chemdata" title="Study Material">
-                    <div className="tile-container">
+                    <div className="tile-container chapter-tiles">
                         {studyMaterialData.map((tile) => (
                             <Pdf className="tab"
                                 key={tile.title}

@@ -4,11 +4,9 @@ import React from 'react'
 
 function NavLogin() {
   return (
-    <div>
-      <Link href="/" className="pointer-events-auto ml-0 mr-3 rounded-md bg-rose-600 px-4 py-3 text-[0.9rem] font-semibold leading-5 text-white hover:bg-rose-700" >
+      <Link href="/" className="pointer-events-auto rounded-md bg-rose-600 px-3 py-2 text-[0.9rem] ml-2 md:ml-4 lg:ml-4 font-semibold leading-5 text-white hover:bg-rose-700" >
         Login
       </Link>
-    </div>
   )
 }
 
